@@ -24,118 +24,140 @@
     <![endif]-->
   </head>
   <body>
-   <div class="container">
-     <!-- Navbar -->
-     <nav class="navbar navbar-default">
-       <div class="container-fluid">
-         <div class="navbar-header">
-           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nvbrclpse">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-           </button>
-           <a href="#" class="navbar-brand">Nicholas Jensen-Hay</a>
-         </div>
-         <div class="collapse navbar-collapse navbar-right" id="nvbrclpse">
-           <ul class="nav navbar-nav">
-             <li class="active"><a href="#">Home <span class="sr-only"> (current) </span> </a></li>
-             <li><a data-toggle="modal" href="#feedbackModal">Feedback</a></li>
-             <li><a data-toggle="modal" href="#aboutMeModal">About Me</a></li>
-           </ul>
-         </div>
-       </div>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nvbrclpse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Nicholas Jensen-Hay</a>
+          </div>
+          <div class="collapse navbar-collapse navbar-right" id="nvbrclpse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home <span class="sr-only"> (current) </span> </a></li>
+              <li><a data-toggle="modal" href="#feedbackModal">Feedback</a></li>
+              <li><a data-toggle="modal" href="#aboutMeModal">About Me</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
       <!-- End Nav -->
 
-   <!-- Carousel for displayng screenshots of my work -->
-   <!-- Carousel for displayng screenshots of my work -->
-   <div class="carousel slide jumbotron" id="myCarousel" data-ride="carousel">
-     <div class="container">
-       <ol class="carousel-indicators">
-         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-         <li data-target="#myCarousel" data-slide-to="1"></li>
-         <li data-target="#myCarousel" data-slide-to="2"></li>
-       </ol>
-       <div class="carousel-inner" role="listbox">
-         <!-- Carousel Items -->
-         <div class="item active">
-           <img src="http://lorempixel.com/1024/768" alt="A site I worked on">
-         </div>
-         <div class="item">
-           <img src="http://lorempixel.com/1000/900" alt="A site I worked on">
-         </div>
-         <div class="item">
-           <img src="http://lorempixel.com/1000/800" alt="A site I worked on">
-         </div>
-         <!-- End Carousel Items -->
-         <a href="#myCarousel" class="left carousel-control" data-slide="prev">
-           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-         </a>
-         <a href="#myCarousel" class="right carousel-control" data-slide="next">
-           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><span>
-         </a>
-       </div>
-     </div>
-   </div>
-   <!-- End Carousel -->
-   <!-- Columns with ordered and unordered lists. Ordered list of practice projects and unordered list of more complete projects -->
-   <!-- use modal boxes to indicate to the user that leaving the page there is no link coming back -->
+      <!-- Carousel for displayng screenshots of my work -->
+      <!-- Carousel for displayng screenshots of my work -->
+      <div class="carousel slide jumbotron" id="myCarousel" data-ride="carousel">
+        <div class="container">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <!-- Carousel Items -->
+            <div class="item active">
+              <img src="http://lorempixel.com/1024/768" alt="A site I worked on">
+            </div>
+            <div class="item">
+              <img src="http://lorempixel.com/1000/900" alt="A site I worked on">
+            </div>
+            <div class="item">
+              <img src="http://lorempixel.com/1000/800" alt="A site I worked on">
+            </div>
+            <!-- End Carousel Items -->
+            <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a href="#myCarousel" class="right carousel-control" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End Carousel -->
+      <!-- Columns with ordered and unordered lists. Ordered list of practice projects and unordered list of more complete projects -->
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Class Projects</h3>
+          <p>
+            Some example sites I wrote while attending epicodus
+          </p>
+          <ol>
+            <li><a href="">Epivacation: Learning Bootstrap</a></li>
+            <li><a href="#">My-First-Webpage: Learning HTML and CSS</a></li>
+          </ol>
+        </div>
+        <div class="col-sm-6">
+          <h3>Personal Projects</h3>
+          <p>
+            These are sites I wrote for personal projects, or for others
+          </p>
+          <ul>
+            <li><a href="http://www.nwautox.org">NWAA: Northwest Autosports Association</a></li>
+            <li><a href="">Epidecorator: Started as a school project, but used as personal practice</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- TODO use modal boxes to indicate to the user that leaving the page there is no link coming back -->
 
-   <!-- Feedback modal -->
-   <div class="modal fade" id="feedbackModal">
-     <div class="modal-dialog">
-       <div class="modal-content">
-         <div class="modal-header">
-           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-           <h4 class="modal-title">Feedback</h4>
-         </div>
-         <div class="modal-body">
-           <form class="inline-form">
-             <div class="form-group">
-               <p>
-                 I'd love to hear from you! Unfortunately, I only know how to make the form and not make the form work... Until I make the form work properly, you can <a class="btn btn-success" href="mailto:llroarke@gmail.com">Email</a> me!
-               </p>
-               <textarea rows="5" class="form-control">
-               </textarea>
-             </div>
-             <button type="submit" data-dismiss="modal" class="btn btn-primary custom-control" name="button">Submit Feedback!</button>
-           </form>
-         </div>
-       </div>
-     </div>
-   </div>
-   <!-- Modal for about me -->
-   <div class="modal fade" id="aboutMeModal">
-     <div class="modal-dialog">
-       <div class="modal-content">
-         <div class="modal-header">
-           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-           <h4 class="modal-title">About Me!</h4>
-         </div>
-         <div class="modal-body">
-           <p>
-             My name is Nicholas Jensen-Hay. The hyphenated name is from unmarried parents, and it doesn't bother me that I spent most of my childhood with only my Mother. In fact, I think it made me <em>stronger</em>. I spent the 90's growing up, and in kindergarden my teacher predicted that I would have a career doing something with computers.
-           </p>
-           <p>
-             I started a computer troubleshooting and repair business while I was still in high school. I left high school <em>early</em> to attend college, and my business had to take a back seat. I attended Southern Oregon University for a few years until the college started loosing money and laid off good, but not tenured, teachers. It was when they awarded the dean over $100,000 to remodel the deans house that I decided to leave, and follow my mother to Portland because she transferred jobs.
-           </p>
-           <p>
-             My first few years in Portland didn't go very well. I had a few jobs, but nothing good or computer related. Looking back, it was as if I were wandering in the dark ages. Finally having steady work, I put more time into meeting a girl. Accomplishments were made in this category, and we fell in love. A year into steady employment, my employer had promised me vacation time. A perfect opportunity to spend some quality time with my new love, I heartily applied for my vacation.
-           </p>
-           <p>
-             Within a few days my supervisor showed up with my replacement and that was that. To make my car payments, among other bills, I did odd jobs. This sometimes involved helping people with their computer, but there is a daunting amount of competition in the big city to start a business. After many months of temp work, odd jobs, and doing whatever I could to live through the depression, I found steady work at an envelope factory.
-           </p>
-           <p>
-             Working in a factory paid decently, and I was good at it, but it never felt like what I wanted. Almost four years go by without much progress towards my career, but I did manage to buy a home. Eventually I sarted hating my job, started creating a shift in my reality. Finally I found my way out of enveopes and into <strong>Epicodus</strong>.
-           </p>
-           <p>
-             This starts my current chapter in life. <strong>Epicodus</strong> has been a great environment so far. Being around ohers that are learning and growing all day is wonderful. I strive to do my best and help my fellow classmates as much as I can, and we shall see what the future brings.
-           </p>
-         </div>
-       </div>
-     </div>
-   </div>
-   </div>
+      <!-- Feedback modal -->
+      <div class="modal fade" id="feedbackModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Feedback</h4>
+            </div>
+            <div class="modal-body">
+              <form class="inline-form">
+                <div class="form-group">
+                  <p>
+                    I'd love to hear from you! Unfortunately, I only know how to make the form and not make the form work... Until I make the form work properly, you can <a class="btn btn-success" href="mailto:llroarke@gmail.com">Email</a> me!
+                  </p>
+                  <textarea rows="5" class="form-control">
+                  </textarea>
+                </div>
+                <button type="submit" data-dismiss="modal" class="btn btn-primary custom-control" name="button">Submit Feedback!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for about me -->
+      <div class="modal fade" id="aboutMeModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">About Me!</h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                My name is Nicholas Jensen-Hay. The hyphenated name is from unmarried parents, and it doesn't bother me that I spent most of my childhood with only my Mother. In fact, I think it made me <em>stronger</em>. I spent the 90's growing up, and in kindergarden my teacher predicted that I would have a career doing something with computers.
+              </p>
+              <p>
+                I started a computer troubleshooting and repair business while I was still in high school. I left high school <em>early</em> to attend college, and my business had to take a back seat. I attended Southern Oregon University for a few years until the college started loosing money and laid off good, but not tenured, teachers. It was when they awarded the dean over $100,000 to remodel the deans house that I decided to leave, and follow my mother to Portland because she transferred jobs.
+              </p>
+              <p>
+                My first few years in Portland didn't go very well. I had a few jobs, but nothing good or computer related. Looking back, it was as if I were wandering in the dark ages. Finally having steady work, I put more time into meeting a girl. Accomplishments were made in this category, and we fell in love. A year into steady employment, my employer had promised me vacation time. A perfect opportunity to spend some quality time with my new love, I heartily applied for my vacation.
+              </p>
+              <p>
+                Within a few days my supervisor showed up with my replacement and that was that. To make my car payments, among other bills, I did odd jobs. This sometimes involved helping people with their computer, but there is a daunting amount of competition in the big city to start a business. After many months of temp work, odd jobs, and doing whatever I could to live through the depression, I found steady work at an envelope factory.
+              </p>
+              <p>
+                Working in a factory paid decently, and I was good at it, but it never felt like what I wanted. Almost four years go by without much progress towards my career, but I did manage to buy a home. Eventually I sarted hating my job, started creating a shift in my reality. Finally I found my way out of enveopes and into <strong>Epicodus</strong>.
+              </p>
+              <p>
+                This starts my current chapter in life. <strong>Epicodus</strong> has been a great environment so far. Being around ohers that are learning and growing all day is wonderful. I strive to do my best and help my fellow classmates as much as I can, and we shall see what the future brings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
