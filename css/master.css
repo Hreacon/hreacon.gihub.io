@@ -5,6 +5,10 @@ body {
 }
 
  /*Styles the carousel indicator dots to stand out more */
+.carousel div h3 {
+  text-align: center;
+  font-weight: bold;
+}
 .carousel-indicators {
   bottom: -100px;
 }
