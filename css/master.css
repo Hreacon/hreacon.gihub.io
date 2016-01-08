@@ -32,6 +32,9 @@ body .container .carousel .container .carousel-indicators .active {
 .modal-body p {
   text-indent: 30px;
 }
+.modal-body p a {
+  text-indent: 0;
+}
 
 /*Makes the submit button of the feedback form full width of text area */
 body .container .modal .modal-dialog .modal-content .modal-body .inline-form .custom-control {
@@ -68,11 +71,14 @@ body .container .row .column {
   color:rgba(0,255,0,1);
   background-color:black;
 }
+.column h3 {
+  text-align: center;
+}
 .imgbay img {
  float:left;
  border-radius:5px;
- margin:5px;
- width:45%;
+ margin:1%;
+ width:48%;
 }
 
 /*Turns off custom column width for stacking */
@@ -81,9 +87,6 @@ body .container .row .column {
     width:96%;
     margin:2%;
     padding-top:1px;
- }
- .column h3 {
-    text-align: center;
  }
  .imgbay img {
     width: 98%;
