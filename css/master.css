@@ -17,6 +17,9 @@ body {
 .modal-body {
   background-color:#fff;
 }
+.modal-body p {
+  text-indent: 30px;
+}
 .custom-control {
   width:100% !important;
 }
