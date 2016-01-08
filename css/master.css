@@ -2,3 +2,9 @@
   max-width:1000px;
   border:1px solid black;
 }
+.modal-body {
+  background-color:#fff;
+}
+.custom-control {
+  width:100% !important;
+}
