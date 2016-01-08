@@ -4,12 +4,6 @@ body {
   padding-bottom:100px;
 }
 
-/*Styles the carousel indicator dots to stand out more */
-.carousel div h3 {
-  text-align: center;
-  font-weight: bold;
-}
-
  /*Styles the carousel indicator dots to stand out more */
 .carousel div h3 {
   text-align: center;
@@ -23,6 +17,13 @@ body .container .carousel .container .carousel-indicators li {
 }
 body .container .carousel .container .carousel-indicators .active {
   background-color: #333;
+}
+.item a img, .item a, .item, .carousel-inner, .carousel-control {
+  border-radius: 10px ;
+}
+.carousel .container h3 {
+  padding-top:0px;
+  margin-top:0px;
 }
 
 /*Makes modals more readable */
