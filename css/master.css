@@ -3,6 +3,7 @@
 }
 body {
   background-color: black !important;
+  padding-bottom:100px;
 }
 .carousel-indicators {
   bottom: -100px;
@@ -18,4 +19,38 @@ body {
 }
 .custom-control {
   width:100% !important;
+}
+.column {
+  background-color: white;
+  border-radius:5px;
+  width:48% !important;
+  margin:1%;
+  padding-bottom: 5px;
+}
+.column ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+.column ul li, .column ol li a {
+  display: block;
+  margin:3px;
+}
+.column ul li a, .column ol li a {
+  display: block;
+  background-color:rgba(0,255,0,.5);
+  border-radius: 5px;
+  padding:5px;
+  color:black;
+  text-align: center;
+}
+.column ul li a:hover, .column ol li a:hover {
+  color:rgba(0,255,0,1);
+  background-color:black;
+}
+@media (max-width:768px) {
+  .column {
+    width:96% !important;
+    margin:2%;
+  }
 }
