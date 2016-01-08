@@ -69,6 +69,12 @@ body {
   color:rgba(0,255,0,1);
   background-color:black;
 }
+.imgbay img {
+ float:left;
+ border-radius:5px;
+ margin:5px;
+ width:45%;
+}
 
 /*Turns off custom column width for stacking */
 @media (max-width:768px) {
