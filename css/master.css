@@ -2,6 +2,10 @@ body {
   background-color: black !important;
   padding-bottom:100px;
 }
+.carousel div h3 {
+  text-align: center;
+  font-weight: bold;
+}
 .carousel-indicators {
   bottom: -100px;
 }
