@@ -18,6 +18,13 @@ body .container .carousel .container .carousel-indicators li {
 body .container .carousel .container .carousel-indicators .active {
   background-color: #333;
 }
+.item a img, .item a, .item, .carousel-inner, .carousel-control {
+  border-radius: 10px ;
+}
+.carousel .container h3 {
+  padding-top:0px;
+  margin-top:0px;
+}
 
 /*Makes modals more readable */
 .modal-body {
