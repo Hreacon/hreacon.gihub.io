@@ -13,7 +13,7 @@ You can visit this site [http://hreacon.github.io](http://hreacon.github.io). Ho
 ## Contact Details
 
 If you notice any bugs or inconsistencies, anything that doesn't make sense in the site please let me know.
-hreacon@gmail.com
+NicholasJensenHay@gmail.com
 
 
 ## Technologies Used
